@@ -1,4 +1,4 @@
-import{h as n,a as e}from"./footer-k40YuF8N.js";const l=`<main>
+import{h as n,a as e}from"./footer-RIfkwlTF.js";const l=`<main>
   <section id="product-overview">
       <h1>Get the freedom you deserve.</h1>
   </section>

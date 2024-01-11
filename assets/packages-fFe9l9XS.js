@@ -1,4 +1,4 @@
-import{h as e,a}from"./footer-k40YuF8N.js";const n=`<main>
+import{h as e,a}from"./footer-RIfkwlTF.js";const n=`<main>
   <section class="package" id="plus">
       <a href="#">
           <h1 class="package__title">Our PLUS Plan</h1>
