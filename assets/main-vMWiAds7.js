@@ -1,4 +1,4 @@
-import{c as t,b as s,h as i,a as r}from"./footer-akEEN8Ms.js";const c=`<main>
+import{c as s,b as t,h as i,a as r}from"./footer-akEEN8Ms.js";const o=`<main>
   <section id="product-overview">
       <h1>Get the freedom you deserve.</h1>
   </section>
@@ -73,4 +73,4 @@ import{c as t,b as s,h as i,a as r}from"./footer-akEEN8Ms.js";const c=`<main>
           </li>
       </ul>
   </section>
-</main>`,l="/css-uhost/",o=document.location.origin,n=t(r),a=n.querySelector(".main-header__brand");a.href=l;n.querySelector("#pkg-link").href=`${o}/pages/packages/`;n.querySelector("#cus-link").href=`${l}pages/customers/`;n.querySelector("#host-link").href=`${l}pages/start-hosting/`;const e=document.createElement("img");e.src=s;e.alt="Your favorite uHost";e.className="brand-img";a.appendChild(e);document.querySelector("#nav").innerHTML=n.innerHTML;document.querySelector("#footer").innerHTML=i;document.querySelector("#app").innerHTML=c;console.log(n.innerHTML);
+</main>`,e="/css-uhost/",n=s(r),l=n.querySelector(".main-header__brand");l.href=e;n.querySelector("#pkg-link").href=`${e}pages/packages/`;n.querySelector("#cus-link").href=`${e}pages/customers/`;n.querySelector("#host-link").href=`${e}pages/start-hosting/`;const a=document.createElement("img");a.src=t;a.alt="Your favorite uHost";a.className="brand-img";l.appendChild(a);document.querySelector("#nav").innerHTML=n.innerHTML;document.querySelector("#footer").innerHTML=i;document.querySelector("#app").innerHTML=o;console.log("Domain : ",document.location.origin);console.log("Base : ",e);console.group("************ Nav bar after modification ****************");console.log(n.innerHTML);console.groupEnd();

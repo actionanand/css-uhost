@@ -1,4 +1,4 @@
-import{c as s,b as r,h as o,a as c}from"./footer-akEEN8Ms.js";const l=`<main>
+import{c as n,b as r,h as o,a as c}from"./footer-akEEN8Ms.js";const l=`<main>
   <section class="package" id="plus">
       <a href="#">
           <h1 class="package__title">Our PLUS Plan</h1>
@@ -23,4 +23,4 @@ import{c as s,b as r,h as o,a as c}from"./footer-akEEN8Ms.js";const l=`<main>
           <p class="package__info">The best solution for small to large enterprises. Because hosting shouldn't be in the way!</p>
       </a>
   </section>
-</main>`,n="/css-uhost/",i=document.location.origin,e=s(c),t=e.querySelector(".main-header__brand");t.href=n;e.querySelector("#pkg-link").href=`${i}/pages/packages/`;e.querySelector("#cus-link").href=`${n}pages/customers/`;e.querySelector("#host-link").href=`${n}pages/start-hosting/`;const a=document.createElement("img");a.src=r;a.alt="Your favorite uHost";a.className="brand-img";t.appendChild(a);document.querySelector("#nav").innerHTML=e.innerHTML;document.querySelector("#footer").innerHTML=o;document.querySelector("#app").innerHTML=l;console.log(e.innerHTML);
+</main>`,a="/css-uhost/",e=n(c),s=e.querySelector(".main-header__brand");s.href=a;e.querySelector("#pkg-link").href=`${a}pages/packages/`;e.querySelector("#cus-link").href=`${a}pages/customers/`;e.querySelector("#host-link").href=`${a}pages/start-hosting/`;const t=document.createElement("img");t.src=r;t.alt="Your favorite uHost";t.className="brand-img";s.appendChild(t);document.querySelector("#nav").innerHTML=e.innerHTML;document.querySelector("#footer").innerHTML=o;document.querySelector("#app").innerHTML=l;
