@@ -11,7 +11,6 @@ import htmlStrHome from './main.html?raw';
 
 
 const BASE_URL = import.meta.env.BASE_URL;
-const Full_URL = document.location.origin;
 
 const navHtml = convertStringToHTML(htmlStrNav);
 
@@ -19,7 +18,7 @@ const brandHtml = navHtml.querySelector('.main-header__brand');
 brandHtml.href = BASE_URL;
 
 // ^ Replacing `navigation urls`
-navHtml.querySelector('#pkg-link').href = `${Full_URL}/pages/packages/`;
+navHtml.querySelector('#pkg-link').href = `${BASE_URL}pages/packages/`;
 navHtml.querySelector('#cus-link').href = `${BASE_URL}pages/customers/`;
 navHtml.querySelector('#host-link').href = `${BASE_URL}pages/start-hosting/`;
 // navHtml.querySelector('.brand-img').src = brandIconImgUrl;
@@ -40,4 +39,8 @@ document.querySelector('#nav').innerHTML = navHtml.innerHTML;
 document.querySelector('#footer').innerHTML = htmlStrFooter;
 document.querySelector('#app').innerHTML = htmlStrHome;
 
+console.log('Domain : ', document.location.origin);
+console.log('Base : ', BASE_URL);
+console.group('************ Nav bar after modification ****************');
 console.log(navHtml.innerHTML);
+console.groupEnd();
