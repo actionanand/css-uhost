@@ -1,4 +1,4 @@
-import{h as n,a as e}from"./footer-Zx9eXg9g.js";const l=`<main>
+import{c as t,b as s,h as i,a as r}from"./footer-akEEN8Ms.js";const c=`<main>
   <section id="product-overview">
       <h1>Get the freedom you deserve.</h1>
   </section>
@@ -73,4 +73,4 @@ import{h as n,a as e}from"./footer-Zx9eXg9g.js";const l=`<main>
           </li>
       </ul>
   </section>
-</main>`;document.querySelector("#nav").innerHTML=n;document.querySelector("#footer").innerHTML=e;document.querySelector("#app").innerHTML=l;
+</main>`,l="/css-uhost/",o=document.location.origin,n=t(r),a=n.querySelector(".main-header__brand");a.href=l;n.querySelector("#pkg-link").href=`${o}/pages/packages/`;n.querySelector("#cus-link").href=`${l}pages/customers/`;n.querySelector("#host-link").href=`${l}pages/start-hosting/`;const e=document.createElement("img");e.src=s;e.alt="Your favorite uHost";e.className="brand-img";a.appendChild(e);document.querySelector("#nav").innerHTML=n.innerHTML;document.querySelector("#footer").innerHTML=i;document.querySelector("#app").innerHTML=c;console.log(n.innerHTML);

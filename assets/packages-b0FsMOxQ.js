@@ -1,4 +1,4 @@
-import{h as e,a}from"./footer-Zx9eXg9g.js";const n=`<main>
+import{c as s,b as r,h as o,a as c}from"./footer-akEEN8Ms.js";const l=`<main>
   <section class="package" id="plus">
       <a href="#">
           <h1 class="package__title">Our PLUS Plan</h1>
@@ -23,4 +23,4 @@ import{h as e,a}from"./footer-Zx9eXg9g.js";const n=`<main>
           <p class="package__info">The best solution for small to large enterprises. Because hosting shouldn't be in the way!</p>
       </a>
   </section>
-</main>`;document.querySelector("#nav").innerHTML=e;document.querySelector("#footer").innerHTML=a;document.querySelector("#app").innerHTML=n;
+</main>`,n="/css-uhost/",i=document.location.origin,e=s(c),t=e.querySelector(".main-header__brand");t.href=n;e.querySelector("#pkg-link").href=`${i}/pages/packages/`;e.querySelector("#cus-link").href=`${n}pages/customers/`;e.querySelector("#host-link").href=`${n}pages/start-hosting/`;const a=document.createElement("img");a.src=r;a.alt="Your favorite uHost";a.className="brand-img";t.appendChild(a);document.querySelector("#nav").innerHTML=e.innerHTML;document.querySelector("#footer").innerHTML=o;document.querySelector("#app").innerHTML=l;console.log(e.innerHTML);
