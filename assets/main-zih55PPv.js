@@ -1,4 +1,4 @@
-import{c as s,b as t,h as i,a as r}from"./footer-akEEN8Ms.js";const o=`<main>
+import{c as s,b as t,h as i,a as r}from"./footer-6Hzri6_M.js";const o=`<main>
   <section id="product-overview">
       <h1>Get the freedom you deserve.</h1>
   </section>
