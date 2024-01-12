@@ -15,3 +15,12 @@ http://127.0.0.1:5173/
 2. [More about the "position" property](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
 3. [The z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)
 4. [The Stacking Context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)
+
+
+
+### Resources for Vite
+
+1. [Vite in a simple html+js use case](https://dev.to/marcinwosinek/vite-in-a-simple-html-js-usecase-35k2)
+2. [Static Asset Handling - Vite official](https://vitejs.dev/guide/assets.html#importing-asset-as-string)
+3. [Shared Options - Vite official](https://vitejs.dev/config/shared-options)
+4. [How to Convert a String to HTML using JavaScript](https://sabe.io/blog/javascript-convert-string-to-html)
