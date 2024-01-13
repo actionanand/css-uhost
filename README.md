@@ -10,7 +10,8 @@ http://127.0.0.1:5173/
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/ae704491-2adb-4e2d-a9f8-848ffbf644e5)
 
 ## Contents
-1. [CSS Specificity](#CSS-Specificity)
+1. [CSS Specificity](#css-specificity)
+2. [Combinators](#combinators)
 ****
 
 ## CSS Specificity
@@ -20,6 +21,14 @@ http://127.0.0.1:5173/
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/73fe75ef-1b50-40f4-af07-ef5a1c9f4e5c)
 
 * The universal selector * has no specificity value (0, 0, 0, 0);
+
+## Combinators
+
+![image](https://github.com/actionanand/css-uhost/assets/46064269/25296f30-4951-46d0-b204-9baa60b3d8f7)
+![image](https://github.com/actionanand/css-uhost/assets/46064269/72e9cf15-ea73-4c16-97cf-f0f7ab82c48f)
+![image](https://github.com/actionanand/css-uhost/assets/46064269/9e601b59-31d8-44b2-81f4-1b3d94a68028)
+![image](https://github.com/actionanand/css-uhost/assets/46064269/212dd5c7-c72a-4a91-858a-8a89a2c77f6f)
+![image](https://github.com/actionanand/css-uhost/assets/46064269/482409d1-2f9e-4613-ad48-dbb5553036dc)
 
 ## Positioning elements with css
 
