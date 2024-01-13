@@ -12,6 +12,7 @@ http://127.0.0.1:5173/
 ## Contents
 1. [CSS Specificity](#css-specificity)
 2. [Combinators](#combinators)
+3. [Box Model & Positioning elements in css](#box-model--positioning-elements-in-css)
 ****
 
 ## CSS Specificity
