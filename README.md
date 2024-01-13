@@ -12,7 +12,7 @@ http://127.0.0.1:5173/
 ## Contents
 1. [CSS Specificity](#css-specificity)
 2. [Combinators](#combinators)
-3. [Box Model & Positioning elements in css](#box-model--positioning-elements-in-css)
+3. [Box Model & Positioning elements and deep dive inside css](#box-model--positioning-elements-and-deep-dive-inside-css)
 ****
 
 ## CSS Specificity
@@ -64,7 +64,7 @@ http://127.0.0.1:5173/
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/30cd00ab-19df-45d0-b8b5-04a730db78e4)
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/a35d6b1a-d2d7-4124-8947-9ddc4f29241d)
 
-1. [When Using !important is The Right Choice](https://css-tricks.com/when-using-important-is-the-right-choice/)
+1. [When Using `!important` is The Right Choice](https://css-tricks.com/when-using-important-is-the-right-choice/)
 2. [The `:not()`  pseudo class](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)
    
 ## Resources for Vite
