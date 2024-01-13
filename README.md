@@ -13,6 +13,7 @@ http://127.0.0.1:5173/
 1. [CSS Specificity](#css-specificity)
 2. [Combinators](#combinators)
 3. [Box Model & Positioning elements and deep dive inside css](#box-model--positioning-elements-and-deep-dive-inside-css)
+4. [Background and Image](#background-and-image)
 ****
 
 ## CSS Specificity
@@ -71,7 +72,12 @@ http://127.0.0.1:5173/
 
 1. [Working With CSS Float And Clear Properties](https://blog.openreplay.com/working-with-css-float-and-clear-properties/)
 2. [More on float - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/float)
-   
+
+## Background and Image
+
+![image](https://github.com/actionanand/css-uhost/assets/46064269/c4c28015-896a-46b6-9545-c839b171c8d4)
+
+
 ## Resources for Vite
 
 1. [Vite in a simple html+js use case](https://dev.to/marcinwosinek/vite-in-a-simple-html-js-usecase-35k2)
