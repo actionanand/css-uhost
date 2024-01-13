@@ -7,14 +7,14 @@ Dev server: Point your browser at the below address!
 http://127.0.0.1:5173/
 ```
 
-## Useful Info:
+****
 
-### CSS Specificity
+## CSS Specificity
 
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/aecee362-1955-48f3-9a27-e4a67fb9fa14)
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/16d7cdb1-f389-4452-b188-0188dab4a106)
 
-### Positioning elements with css
+## Positioning elements with css
 
 1. [Positioning theory](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning)
 2. [More about the "position" property](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
