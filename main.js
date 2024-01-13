@@ -39,8 +39,12 @@ document.querySelector('#nav').innerHTML = navHtml.innerHTML;
 document.querySelector('#footer').innerHTML = htmlStrFooter;
 document.querySelector('#app').innerHTML = htmlStrHome;
 
+// & logging to browser's console
 console.log('Domain : ', document.location.origin);
 console.log('Base : ', BASE_URL);
-console.group('************ Nav bar after modification ****************');
+console.group('1️⃣Navbar before modification 👇');
+console.log(htmlStrNav);
+console.groupEnd();
+console.group('2️⃣Navbar after modification 👇');
 console.log(navHtml.innerHTML);
 console.groupEnd();
