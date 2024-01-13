@@ -6,6 +6,7 @@ Dev server: Point your browser at the below address!
 ```
 http://127.0.0.1:5173/
 ```
+![image](https://github.com/actionanand/css-uhost/assets/46064269/61e5afe5-1704-427f-ad7c-33bf514466be)
 
 ****
 
@@ -23,7 +24,7 @@ http://127.0.0.1:5173/
 
 
 
-### Resources for Vite
+## Resources for Vite
 
 1. [Vite in a simple html+js use case](https://dev.to/marcinwosinek/vite-in-a-simple-html-js-usecase-35k2)
 2. [Static Asset Handling - Vite official](https://vitejs.dev/guide/assets.html#importing-asset-as-string)
