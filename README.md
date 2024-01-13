@@ -30,7 +30,11 @@ http://127.0.0.1:5173/
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/212dd5c7-c72a-4a91-858a-8a89a2c77f6f)
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/482409d1-2f9e-4613-ad48-dbb5553036dc)
 
-## Positioning elements with css
+## Box Model & Positioning elements in css
+
+![image](https://github.com/actionanand/css-uhost/assets/46064269/2f5b520b-e8d7-41a0-8de5-4f5f78f7158b)
+![image](https://github.com/actionanand/css-uhost/assets/46064269/a27e8c48-3c12-4f68-8bda-5f6f1140a052)
+
 
 1. [Positioning theory](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning)
 2. [More about the "position" property](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
