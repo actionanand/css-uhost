@@ -66,6 +66,11 @@ http://127.0.0.1:5173/
 
 1. [When Using `!important` is The Right Choice](https://css-tricks.com/when-using-important-is-the-right-choice/)
 2. [The `:not()`  pseudo class](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)
+
+### Float and Clear fix
+
+1. [Working With CSS Float And Clear Properties](https://blog.openreplay.com/working-with-css-float-and-clear-properties/)
+2. [More on float - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/float)
    
 ## Resources for Vite
 
