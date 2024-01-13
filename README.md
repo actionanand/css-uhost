@@ -10,7 +10,7 @@ http://127.0.0.1:5173/
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/ae704491-2adb-4e2d-a9f8-848ffbf644e5)
 
 ## Contents
-1. [CSS Specificity](#CSSSpecificity)
+1. [CSS Specificity](#CSS-Specificity)
 ****
 
 ## CSS Specificity
