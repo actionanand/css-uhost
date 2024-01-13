@@ -61,6 +61,10 @@ http://127.0.0.1:5173/
 * We had a look at `display: none;`  - this value removes the element to which you apply it from the document flow. This means that the element is not visible and it also doesn't **block its position**. Other elements can (and will) take its place instead. **It's still part of the DOM though**, you can still **access it via JavaScript** for example.
 * There is an alternative to that though. If you only want to hide an element but you want to keep its place (i.e. other elements don't fill the empty spot), you can use `visibility: hidden;`. Here it's not removed from the document flow and of course also not from the DOM.
 
+![image](https://github.com/actionanand/css-uhost/assets/46064269/30cd00ab-19df-45d0-b8b5-04a730db78e4)
+![image](https://github.com/actionanand/css-uhost/assets/46064269/a35d6b1a-d2d7-4124-8947-9ddc4f29241d)
+
+
 ## Resources for Vite
 
 1. [Vite in a simple html+js use case](https://dev.to/marcinwosinek/vite-in-a-simple-html-js-usecase-35k2)
