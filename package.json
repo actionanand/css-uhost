@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build  --base=/css-uhost/",
     "preview": "vite preview",
-    "predeploy": "yarn run build",
+    "copy-error-page": "cp dist/index.html dist/404.html",
+    "predeploy": "yarn run build && yarn run copy-error-page",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
