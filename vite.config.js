@@ -8,7 +8,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         packages: resolve(__dirname, 'pages/packages/index.html'),
-        customers: resolve(__dirname, 'pages/packages/index.html'),
+        customers: resolve(__dirname, 'pages/customers/index.html'),
       },
     },
   },
