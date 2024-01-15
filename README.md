@@ -77,6 +77,12 @@ http://127.0.0.1:5173/
 
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/c4c28015-896a-46b6-9545-c839b171c8d4)
 
+1. [The background Property - mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
+2. [Styling Images - w3 schools](https://www.w3schools.com/css/css3_images.asp)
+3. [Filters - mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/filter)
+4. [Styling SVG - mdn](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_and_CSS)
+
+![image](https://github.com/actionanand/css-uhost/assets/46064269/469d2ad5-6a72-482e-8427-9c28374aaeb9)
 
 ## Resources for Vite
 
