@@ -41,6 +41,7 @@ imgHtml.alt = 'Your favorite uHost';
 imgHtml.className = 'brand-img';
 
 // ? appending `img` tag to `brandHtml`
+// brandHtml.innerHTML = imgHtml.outerHTML;
 brandHtml.appendChild(imgHtml);
 
 // ~ inserting modified `html` snip into placeholder
