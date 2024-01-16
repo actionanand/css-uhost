@@ -91,7 +91,7 @@ http://127.0.0.1:5173/
 
 * [Hiding Vertical & Horizontal Scrollbars with Pure CSS](https://web.archive.org/web/20180505112131/https://blogs.msdn.microsoft.com/kurlak/2013/11/03/hiding-vertical-scrollbars-with-pure-css-in-chrome-ie-6-firefox-opera-and-safari/)
 
-Which will the `%` (percentage) value calculated with ref. to? The answer depends on the `position` property of the html element and the containing block, which the element takes as ref. for calculation of percentage.
+Which will the `%` (percentage) value calculated with ref. to? The answer depends on the `position` property of the html element and the containing block (container), which the element takes as ref. for calculation of percentage.
 
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/9369d41a-0852-4c94-83eb-3e8d26f46abd)
 
