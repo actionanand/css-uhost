@@ -109,3 +109,4 @@ Which will the `%` (percentage) value calculated with ref. to? The answer depend
 2. [Static Asset Handling - Vite official](https://vitejs.dev/guide/assets.html#importing-asset-as-string)
 3. [Shared Options - Vite official](https://vitejs.dev/config/shared-options)
 4. [How to Convert a String to HTML using JavaScript](https://sabe.io/blog/javascript-convert-string-to-html)
+5. [Append element as sibling after element? - Stackoverflow](https://stackoverflow.com/questions/21422337/append-element-as-sibling-after-element)
