@@ -14,6 +14,9 @@ http://127.0.0.1:5173/
 2. [Combinators](#combinators)
 3. [Box Model & Positioning elements and deep dive inside css](#box-model--positioning-elements-and-deep-dive-inside-css)
 4. [Background and Image](#background-and-image)
+5. [Sizes & Units](#sizes--units)
+
+
 ****
 
 ## CSS Specificity
@@ -83,6 +86,12 @@ http://127.0.0.1:5173/
 4. [Styling SVG - mdn](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_and_CSS)
 
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/469d2ad5-6a72-482e-8427-9c28374aaeb9)
+
+## Sizes & Units
+
+* [Hiding Vertical & Horizontal Scrollbars with Pure CSS](https://web.archive.org/web/20180505112131/https://blogs.msdn.microsoft.com/kurlak/2013/11/03/hiding-vertical-scrollbars-with-pure-css-in-chrome-ie-6-firefox-opera-and-safari/)
+
+
 
 ## Resources for Vite
 

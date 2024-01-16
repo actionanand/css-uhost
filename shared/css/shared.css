@@ -5,6 +5,14 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
+  /* removing scrollbars in windows browser 👇 */
+  /* overflow-x: hidden;
+  overflow-y: hidden */
+}
+
+/* removing scrollbars in windows browser */
+body::-webkit-scrollbar {
+  width: 0;
 }
 
 .backdrop {
