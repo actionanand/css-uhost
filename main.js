@@ -25,7 +25,7 @@ const modalHtml = convertStringToHTML(htmlStrModal);
 const brandHtml = navHtml.querySelector('.main-header__brand');
 brandHtml.href = BASE_URL;
 
-// // adding `html element` as sibling
+// adding `html element` as sibling: `backdropHtml` is existing Node, `modalHtml` is new node
 const backdropHtml = document.querySelector('.backdrop');
 modalHtml.querySelector('.modal__action').href = `${BASE_URL}pages/start-hosting/`;
 backdropHtml.parentNode.insertBefore(modalHtml.childNodes[0], backdropHtml.nextSibling);
