@@ -73,13 +73,15 @@ const modal = document.querySelector('.modal');
 
 
 const onOpenModal = () => {
-  backdrop.style.display = 'block';
-  modal.style.display = 'block';
+  // modal.style.display = 'block';
+  modal.classList.add('open');
+  backdrop.classList.add('open');
 }
 
 const onCloseModal = () => {
-  backdrop.style.display = 'none';
-  modal.style.display = 'none';
+  // modal.style.display = 'none';
+  modal.classList.remove('open');
+  backdrop.classList.remove('open');
 }
 
 for (let i = 0; i < selectPlanBtns.length; i++) {
@@ -89,7 +91,7 @@ for (let i = 0; i < selectPlanBtns.length; i++) {
 // // closing modal
 const modalNoBtn = document.querySelector('.modal__action--negative');
 backdrop.addEventListener('click', () => {
-  mobileNav.style.display = 'none';
+  mobileNav.classList.remove('open');
   onCloseModal();
 });
 modalNoBtn.addEventListener('click', onCloseModal);
@@ -97,8 +99,8 @@ modalNoBtn.addEventListener('click', onCloseModal);
 // & triggering mobile nav
 
 toggleBtn.addEventListener('click', () => {
-  backdrop.style.display = 'block';
-  mobileNav.style.display = 'block';
+  backdrop.classList.add('open');
+  mobileNav.classList.add('open');
 });
 
 // & logging to browser's console
