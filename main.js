@@ -59,6 +59,30 @@ document.querySelector('#app').innerHTML = homeHtml.innerHTML;
 
 document.querySelector('#footer').innerHTML = htmlStrFooter;
 
+// enabling backdrop & pop-up when clicking on the plans on homepage
+const selectPlanBtns = document.querySelectorAll('.plan button');
+const backdrop = document.querySelector('.backdrop');
+const modal = document.querySelector('.modal');
+
+for (let i = 0; i < selectPlanBtns.length; i++) {
+  selectPlanBtns[i].addEventListener('click', () => {
+    backdrop.style.display = 'block';
+    modal.style.display = 'block';
+  });
+}
+
+// closing modal
+const modalNoBtn = document.querySelector('.modal__action--negative');
+backdrop.addEventListener('click', () => {
+  backdrop.style.display = 'none';
+  modal.style.display = 'none';
+});
+
+modalNoBtn.addEventListener('click', () => {
+  backdrop.style.display = 'none';
+  modal.style.display = 'none';
+});
+
 // & logging to browser's console
 console.log('Domain : ', document.location.origin);
 console.log('Base : ', BASE_URL);
