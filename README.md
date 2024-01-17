@@ -15,6 +15,7 @@ http://127.0.0.1:5173/
 3. [Box Model & Positioning elements and deep dive inside css](#box-model--positioning-elements-and-deep-dive-inside-css)
 4. [Background and Image](#background-and-image)
 5. [Sizes & Units](#sizes--units)
+6. [Responsive Website](#responsive-website)
 
 
 ****
@@ -102,6 +103,8 @@ Which will the `%` (percentage) value calculated with ref. to? The answer depend
 * Can be the closest ancestor or the viewport
 
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/450f79fb-e906-46fd-b9bb-f796ba2e1f7a)
+
+## Responsive Website
 
 ## Resources for Vite
 
