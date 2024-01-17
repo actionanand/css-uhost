@@ -2,6 +2,7 @@ import { convertStringToHTML } from './shared/js/utils';
 
 import './main.css';
 import './shared/css/shared.css';
+import './shared/css/modal.css';
 
 import brandIconImgUrl from './shared/images/uhost-icon.png';
 
