@@ -1,4 +1,4 @@
-import{c as o,b as c,h as l,a as i}from"./footer-t0xUOAS3.js";const p=`<main>
+import{c as o,b as c,h as l,a as i}from"./footer-WWDUbfRe.js";const p=`<main>
   <section class="package" id="plus">
     <a href="#">
       <h1 class="package__title">Our PLUS Plan</h1>
