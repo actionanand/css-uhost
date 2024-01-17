@@ -62,10 +62,15 @@ document.querySelector('#app').innerHTML = homeHtml.innerHTML;
 
 document.querySelector('#footer').innerHTML = htmlStrFooter;
 
-// enabling backdrop & pop-up when clicking on the plans on homepage
+// // Mobile nav elements
+const toggleBtn = document.querySelector('.toggle-button');
+const mobileNav = document.querySelector('.mobile-nav');
+
+// // enabling backdrop & pop-up when clicking on the plans on homepage
 const selectPlanBtns = document.querySelectorAll('.plan button');
 const backdrop = document.querySelector('.backdrop');
 const modal = document.querySelector('.modal');
+
 
 const onOpenModal = () => {
   backdrop.style.display = 'block';
@@ -81,10 +86,20 @@ for (let i = 0; i < selectPlanBtns.length; i++) {
   selectPlanBtns[i].addEventListener('click', onOpenModal);
 }
 
-// closing modal
+// // closing modal
 const modalNoBtn = document.querySelector('.modal__action--negative');
-backdrop.addEventListener('click', onCloseModal);
+backdrop.addEventListener('click', () => {
+  mobileNav.style.display = 'none';
+  onCloseModal();
+});
 modalNoBtn.addEventListener('click', onCloseModal);
+
+// & triggering mobile nav
+
+toggleBtn.addEventListener('click', () => {
+  backdrop.style.display = 'block';
+  mobileNav.style.display = 'block';
+});
 
 // & logging to browser's console
 console.log('Domain : ', document.location.origin);
