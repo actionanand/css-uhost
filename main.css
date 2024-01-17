@@ -31,7 +31,7 @@
 
   width: 100vw;
   height: 33vh;
-  margin-top: 2.75rem;
+  margin-top: 3.5rem;
   position: relative;
 }
 
@@ -137,7 +137,7 @@
   font-family: sans-serif;
 } */
 
-@media (min-width: 40rem) and (min-height: 41rem) {
+@media (min-width: 40rem) and (min-height: 40rem) {
   #product-overview {
     height: 43vh;
     background-position: 50% 18%;
