@@ -97,7 +97,6 @@ backdrop.addEventListener('click', () => {
 modalNoBtn.addEventListener('click', onCloseModal);
 
 // & triggering mobile nav
-
 toggleBtn.addEventListener('click', () => {
   backdrop.classList.add('open');
   mobileNav.classList.add('open');

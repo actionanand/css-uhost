@@ -48,3 +48,19 @@ document.querySelector('#nav').innerHTML = navHtml.innerHTML;
 document.querySelector('#app').innerHTML = homeHtml.innerHTML;
 
 document.querySelector('#footer').innerHTML = htmlStrFooter;
+
+// // Mobile nav elements
+const toggleBtn = document.querySelector('.toggle-button');
+const mobileNav = document.querySelector('.mobile-nav');
+const backdrop = document.querySelector('.backdrop');
+
+// & triggering mobile nav
+toggleBtn.addEventListener('click', () => {
+  backdrop.classList.add('open');
+  mobileNav.classList.add('open');
+});
+
+backdrop.addEventListener('click', () => {
+  mobileNav.classList.remove('open');
+  backdrop.classList.remove('open');
+});
