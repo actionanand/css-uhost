@@ -1,4 +1,4 @@
-import{c as s,b as f,h as u,a as h}from"./footer-72bkAXuf.js";const v=`<main>
+import{c as a,b as u,h as v,a as r}from"./footer-t0xUOAS3.js";const g=`<main>
   <section id="product-overview">
     <h1>Get the freedom you deserve.</h1>
   </section>
@@ -79,14 +79,14 @@ import{c as s,b as f,h as u,a as h}from"./footer-72bkAXuf.js";const v=`<main>
       </ul>
   </section>
 </main>
-`,g=`<div class="modal">
+`,C=`<div class="modal">
   <h1 class="modal__title">Do you want to continue?</h1>
   <div class="modal__actions">
       <a href="/start-hosting_page" class="modal__action">Yes!</a>
       <button class="modal__action modal__action--negative" type="button">No!</button>
   </div>
 </div>
-`,C=`<svg viewBox="0 0 512 512">
+`,M=`<svg viewBox="0 0 512 512">
   <path style="fill:#F09B24;" d="M344,248h-32V112c0-4.418-3.582-8-8-8h-40c-4.418,0-8,3.582-8,8s3.582,8,8,8h32v128h-32  c-4.418,0-8,3.582-8,8s3.582,8,8,8h32v128h-32c-4.418,0-8,3.582-8,8s3.582,8,8,8h40c4.418,0,8-3.582,8-8V264h32c4.418,0,8-3.582,8-8  S348.418,248,344,248z"
   />
   <path style="fill:#8E9AA9;" d="M264,64H8c-4.418,0-8,3.582-8,8v80c0,4.418,3.582,8,8,8h256c4.418,0,8-3.582,8-8V72  C272,67.582,268.418,64,264,64z"
@@ -175,7 +175,7 @@ import{c as s,b as f,h as u,a as h}from"./footer-72bkAXuf.js";const v=`<main>
   />
 
 </svg>
-`,M=`<svg viewBox="0 0 512 512">
+`,m=`<svg viewBox="0 0 512 512">
   <path style="fill:#69788D;" d="M248,0H8C3.582,0,0,3.582,0,8v496c0,4.418,3.582,8,8,8h240c4.418,0,8-3.582,8-8V8  C256,3.582,252.418,0,248,0z"
   />
   <path style="fill:#56677E;" d="M24,504V8c0-4.418,3.582-8,8-8H8C3.582,0,0,3.582,0,8v496c0,4.418,3.582,8,8,8h24  C27.582,512,24,508.418,24,504z"
@@ -254,4 +254,4 @@ import{c as s,b as f,h as u,a as h}from"./footer-72bkAXuf.js";const v=`<main>
   </g>
 
 </svg>
-`,l="/css-uhost/",n=s(h),t=s(v),r=s(g),d=n.querySelector(".main-header__brand");d.href=l;const i=document.querySelector(".backdrop");r.querySelector(".modal__action").href=`${l}pages/start-hosting/`;i.parentNode.insertBefore(r.childNodes[0],i.nextSibling);n.querySelector("#pkg-link").href=`${l}pages/packages/`;n.querySelector("#cus-link").href=`${l}pages/customers/`;n.querySelector("#host-link").href=`${l}pages/start-hosting/`;t.querySelector("#trust-customer").innerHTML=C;t.querySelector("#uptime-guarantee").innerHTML=M;t.querySelector("#fast-cdn").innerHTML=_;const e=document.createElement("img");e.src=f;e.alt="Your favorite uHost";e.className="brand-img";d.appendChild(e);document.querySelector("#nav").innerHTML=n.innerHTML;document.querySelector("#app").innerHTML=t.innerHTML;document.querySelector("#footer").innerHTML=u;const o=document.querySelectorAll(".plan button"),a=document.querySelector(".backdrop"),p=document.querySelector(".modal"),m=()=>{a.style.display="block",p.style.display="block"},y=()=>{a.style.display="none",p.style.display="none"};for(let c=0;c<o.length;c++)o[c].addEventListener("click",m);const z=document.querySelector(".modal__action--negative");a.addEventListener("click",y);z.addEventListener("click",y);console.log("Domain : ",document.location.origin);console.log("Base : ",l);console.group("1️⃣Navbar before modification 👇");console.log(h);console.groupEnd();console.group("2️⃣Navbar after modification 👇");console.log(n.innerHTML);console.groupEnd();
+`,l="/css-uhost/",n=a(r),t=a(g),h=a(C),d=n.querySelector(".main-header__brand");d.href=l;const i=document.querySelector(".backdrop");h.querySelector(".modal__action").href=`${l}pages/start-hosting/`;i.parentNode.insertBefore(h.childNodes[0],i.nextSibling);n.querySelector("#pkg-link").href=`${l}pages/packages/`;n.querySelector("#cus-link").href=`${l}pages/customers/`;n.querySelector("#host-link").href=`${l}pages/start-hosting/`;n.querySelector("#pkg-link-mobile").href=`${l}pages/packages/`;n.querySelector("#cus-link-mobile").href=`${l}pages/customers/`;n.querySelector("#host-link-mobile").href=`${l}pages/start-hosting/`;t.querySelector("#trust-customer").innerHTML=M;t.querySelector("#uptime-guarantee").innerHTML=m;t.querySelector("#fast-cdn").innerHTML=_;const e=document.createElement("img");e.src=u;e.alt="Your favorite uHost";e.className="brand-img";d.appendChild(e);document.querySelector("#nav").innerHTML=n.innerHTML;document.querySelector("#app").innerHTML=t.innerHTML;document.querySelector("#footer").innerHTML=v;const z=document.querySelector(".toggle-button"),p=document.querySelector(".mobile-nav"),o=document.querySelectorAll(".plan button"),c=document.querySelector(".backdrop"),f=document.querySelector(".modal"),S=()=>{f.classList.add("open"),c.classList.add("open")},y=()=>{f.classList.remove("open"),c.classList.remove("open")};for(let s=0;s<o.length;s++)o[s].addEventListener("click",S);const H=document.querySelector(".modal__action--negative");c.addEventListener("click",()=>{p.classList.remove("open"),y()});H.addEventListener("click",y);z.addEventListener("click",()=>{c.classList.add("open"),p.classList.add("open")});console.log("Domain : ",document.location.origin);console.log("Base : ",l);console.group("1️⃣Navbar before modification 👇");console.log(r);console.groupEnd();console.group("2️⃣Navbar after modification 👇");console.log(n.innerHTML);console.groupEnd();

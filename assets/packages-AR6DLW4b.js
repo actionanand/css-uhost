@@ -1,4 +1,4 @@
-import{c as s,b as r,h as o,a as c}from"./footer-72bkAXuf.js";const l=`<main>
+import{c as o,b as c,h as l,a as i}from"./footer-t0xUOAS3.js";const p=`<main>
   <section class="package" id="plus">
     <a href="#">
       <h1 class="package__title">Our PLUS Plan</h1>
@@ -24,4 +24,4 @@ import{c as s,b as r,h as o,a as c}from"./footer-72bkAXuf.js";const l=`<main>
     </a>
   </section>
 </main>
-`,a="/css-uhost/",e=s(c),n=e.querySelector(".main-header__brand");n.href=a;e.querySelector("#pkg-link").href=`${a}pages/packages/`;e.querySelector("#cus-link").href=`${a}pages/customers/`;e.querySelector("#host-link").href=`${a}pages/start-hosting/`;const t=document.createElement("img");t.src=r;t.alt="Your favorite uHost";t.className="brand-img";n.appendChild(t);document.querySelector("#nav").innerHTML=e.innerHTML;document.querySelector("#footer").innerHTML=o;document.querySelector("#app").innerHTML=l;
+`,a="/css-uhost/",e=o(i),n=e.querySelector(".main-header__brand");n.href=a;e.querySelector("#pkg-link").href=`${a}pages/packages/`;e.querySelector("#cus-link").href=`${a}pages/customers/`;e.querySelector("#host-link").href=`${a}pages/start-hosting/`;e.querySelector("#pkg-link-mobile").href=`${a}pages/packages/`;e.querySelector("#cus-link-mobile").href=`${a}pages/customers/`;e.querySelector("#host-link-mobile").href=`${a}pages/start-hosting/`;const t=document.createElement("img");t.src=c;t.alt="Your favorite uHost";t.className="brand-img";n.appendChild(t);document.querySelector("#nav").innerHTML=e.innerHTML;document.querySelector("#footer").innerHTML=l;document.querySelector("#app").innerHTML=p;const u=document.querySelector(".toggle-button"),r=document.querySelector(".mobile-nav"),s=document.querySelector(".backdrop");u.addEventListener("click",()=>{s.classList.add("open"),r.classList.add("open")});s.addEventListener("click",()=>{r.classList.remove("open"),s.classList.remove("open")});
