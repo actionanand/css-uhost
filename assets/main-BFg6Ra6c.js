@@ -1,4 +1,4 @@
-import{c as a,b as y,h as f,a as r}from"./footer-72bkAXuf.js";const u=`<main>
+import{c as s,b as f,h as u,a as h}from"./footer-72bkAXuf.js";const v=`<main>
   <section id="product-overview">
     <h1>Get the freedom you deserve.</h1>
   </section>
@@ -79,14 +79,14 @@ import{c as a,b as y,h as f,a as r}from"./footer-72bkAXuf.js";const u=`<main>
       </ul>
   </section>
 </main>
-`,v=`<div class="modal">
+`,g=`<div class="modal">
   <h1 class="modal__title">Do you want to continue?</h1>
   <div class="modal__actions">
       <a href="/start-hosting_page" class="modal__action">Yes!</a>
       <button class="modal__action modal__action--negative" type="button">No!</button>
   </div>
 </div>
-`,g=`<svg viewBox="0 0 512 512">
+`,C=`<svg viewBox="0 0 512 512">
   <path style="fill:#F09B24;" d="M344,248h-32V112c0-4.418-3.582-8-8-8h-40c-4.418,0-8,3.582-8,8s3.582,8,8,8h32v128h-32  c-4.418,0-8,3.582-8,8s3.582,8,8,8h32v128h-32c-4.418,0-8,3.582-8,8s3.582,8,8,8h40c4.418,0,8-3.582,8-8V264h32c4.418,0,8-3.582,8-8  S348.418,248,344,248z"
   />
   <path style="fill:#8E9AA9;" d="M264,64H8c-4.418,0-8,3.582-8,8v80c0,4.418,3.582,8,8,8h256c4.418,0,8-3.582,8-8V72  C272,67.582,268.418,64,264,64z"
@@ -175,7 +175,7 @@ import{c as a,b as y,h as f,a as r}from"./footer-72bkAXuf.js";const u=`<main>
   />
 
 </svg>
-`,C=`<svg viewBox="0 0 512 512">
+`,M=`<svg viewBox="0 0 512 512">
   <path style="fill:#69788D;" d="M248,0H8C3.582,0,0,3.582,0,8v496c0,4.418,3.582,8,8,8h240c4.418,0,8-3.582,8-8V8  C256,3.582,252.418,0,248,0z"
   />
   <path style="fill:#56677E;" d="M24,504V8c0-4.418,3.582-8,8-8H8C3.582,0,0,3.582,0,8v496c0,4.418,3.582,8,8,8h24  C27.582,512,24,508.418,24,504z"
@@ -220,7 +220,7 @@ import{c as a,b as y,h as f,a as r}from"./footer-72bkAXuf.js";const u=`<main>
       <path style="fill:#3CBDE8;" d="M232.523,343.667c21.144,50.298,54.363,86.56,99.087,108.06l0.117-108.06H232.523z" />
   </g>
 </svg>
-`,M=`<svg viewBox="0 0 512 512">
+`,_=`<svg viewBox="0 0 512 512">
   <path style="fill:#8E9AA9;" d="M168,200c-4.418,0-8,3.582-8,8v120h-17.376c-3.302-9.311-12.194-16-22.624-16  c-13.234,0-24,10.767-24,24s10.766,24,24,24c10.429,0,19.321-6.689,22.624-16H168c4.418,0,8-3.582,8-8V208  C176,203.582,172.418,200,168,200z"
   />
   <path style="fill:#FFDB66;" d="M120,328c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S124.411,328,120,328z" />
@@ -254,4 +254,4 @@ import{c as a,b as y,h as f,a as r}from"./footer-72bkAXuf.js";const u=`<main>
   </g>
 
 </svg>
-`,l="/css-uhost/",n=a(r),e=a(u),d=a(v),p=n.querySelector(".main-header__brand");p.href=l;const o=document.querySelector(".backdrop");d.querySelector(".modal__action").href=`${l}pages/start-hosting/`;o.parentNode.insertBefore(d.childNodes[0],o.nextSibling);n.querySelector("#pkg-link").href=`${l}pages/packages/`;n.querySelector("#cus-link").href=`${l}pages/customers/`;n.querySelector("#host-link").href=`${l}pages/start-hosting/`;e.querySelector("#trust-customer").innerHTML=g;e.querySelector("#uptime-guarantee").innerHTML=C;e.querySelector("#fast-cdn").innerHTML=M;const c=document.createElement("img");c.src=y;c.alt="Your favorite uHost";c.className="brand-img";p.appendChild(c);document.querySelector("#nav").innerHTML=n.innerHTML;document.querySelector("#app").innerHTML=e.innerHTML;document.querySelector("#footer").innerHTML=f;const h=document.querySelectorAll(".plan button"),t=document.querySelector(".backdrop"),i=document.querySelector(".modal");for(let s=0;s<h.length;s++)h[s].addEventListener("click",()=>{t.style.display="block",i.style.display="block"});const _=document.querySelector(".modal__action--negative");t.addEventListener("click",()=>{t.style.display="none",i.style.display="none"});_.addEventListener("click",()=>{t.style.display="none",i.style.display="none"});console.log("Domain : ",document.location.origin);console.log("Base : ",l);console.group("1️⃣Navbar before modification 👇");console.log(r);console.groupEnd();console.group("2️⃣Navbar after modification 👇");console.log(n.innerHTML);console.groupEnd();
+`,l="/css-uhost/",n=s(h),t=s(v),r=s(g),d=n.querySelector(".main-header__brand");d.href=l;const i=document.querySelector(".backdrop");r.querySelector(".modal__action").href=`${l}pages/start-hosting/`;i.parentNode.insertBefore(r.childNodes[0],i.nextSibling);n.querySelector("#pkg-link").href=`${l}pages/packages/`;n.querySelector("#cus-link").href=`${l}pages/customers/`;n.querySelector("#host-link").href=`${l}pages/start-hosting/`;t.querySelector("#trust-customer").innerHTML=C;t.querySelector("#uptime-guarantee").innerHTML=M;t.querySelector("#fast-cdn").innerHTML=_;const e=document.createElement("img");e.src=f;e.alt="Your favorite uHost";e.className="brand-img";d.appendChild(e);document.querySelector("#nav").innerHTML=n.innerHTML;document.querySelector("#app").innerHTML=t.innerHTML;document.querySelector("#footer").innerHTML=u;const o=document.querySelectorAll(".plan button"),a=document.querySelector(".backdrop"),p=document.querySelector(".modal"),m=()=>{a.style.display="block",p.style.display="block"},y=()=>{a.style.display="none",p.style.display="none"};for(let c=0;c<o.length;c++)o[c].addEventListener("click",m);const z=document.querySelector(".modal__action--negative");a.addEventListener("click",y);z.addEventListener("click",y);console.log("Domain : ",document.location.origin);console.log("Base : ",l);console.group("1️⃣Navbar before modification 👇");console.log(h);console.groupEnd();console.group("2️⃣Navbar after modification 👇");console.log(n.innerHTML);console.groupEnd();
