@@ -64,24 +64,24 @@ const selectPlanBtns = document.querySelectorAll('.plan button');
 const backdrop = document.querySelector('.backdrop');
 const modal = document.querySelector('.modal');
 
+const onOpenModal = () => {
+  backdrop.style.display = 'block';
+  modal.style.display = 'block';
+}
+
+const onCloseModal = () => {
+  backdrop.style.display = 'none';
+  modal.style.display = 'none';
+}
+
 for (let i = 0; i < selectPlanBtns.length; i++) {
-  selectPlanBtns[i].addEventListener('click', () => {
-    backdrop.style.display = 'block';
-    modal.style.display = 'block';
-  });
+  selectPlanBtns[i].addEventListener('click', onOpenModal);
 }
 
 // closing modal
 const modalNoBtn = document.querySelector('.modal__action--negative');
-backdrop.addEventListener('click', () => {
-  backdrop.style.display = 'none';
-  modal.style.display = 'none';
-});
-
-modalNoBtn.addEventListener('click', () => {
-  backdrop.style.display = 'none';
-  modal.style.display = 'none';
-});
+backdrop.addEventListener('click', onCloseModal);
+modalNoBtn.addEventListener('click', onCloseModal);
 
 // & logging to browser's console
 console.log('Domain : ', document.location.origin);
