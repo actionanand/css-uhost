@@ -137,6 +137,17 @@
   font-family: sans-serif;
 } */
 
+@media (min-width: 40rem) and (min-height: 41rem) {
+  #product-overview {
+    height: 43vh;
+    background-position: 50% 18%;
+  }
+
+  #product-overview h1 {
+    font-size: 3rem;
+  }
+}
+
 @media (min-width: 40rem) {
   .plan__list {
     width: 100%;
