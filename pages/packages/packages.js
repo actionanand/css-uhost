@@ -22,7 +22,9 @@ navHtml.querySelector('#pkg-link').href = `${BASE_URL}pages/packages/`;
 navHtml.querySelector('#cus-link').href = `${BASE_URL}pages/customers/`;
 navHtml.querySelector('#host-link').href = `${BASE_URL}pages/start-hosting/`;
 // navHtml.querySelector('.brand-img').src = brandIconImgUrl;
-
+navHtml.querySelector('#pkg-link-mobile').href = `${BASE_URL}pages/packages/`;
+navHtml.querySelector('#cus-link-mobile').href = `${BASE_URL}pages/customers/`;
+navHtml.querySelector('#host-link-mobile').href = `${BASE_URL}pages/start-hosting/`;
 
 // * Creating `img` tag
 const imgHtml = document.createElement('img');

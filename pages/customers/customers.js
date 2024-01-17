@@ -24,6 +24,9 @@ brandHtml.href = BASE_URL;
 navHtml.querySelector('#pkg-link').href = `${BASE_URL}pages/packages/`;
 navHtml.querySelector('#cus-link').href = `${BASE_URL}pages/customers/`;
 navHtml.querySelector('#host-link').href = `${BASE_URL}pages/start-hosting/`;
+navHtml.querySelector('#pkg-link-mobile').href = `${BASE_URL}pages/packages/`;
+navHtml.querySelector('#cus-link-mobile').href = `${BASE_URL}pages/customers/`;
+navHtml.querySelector('#host-link-mobile').href = `${BASE_URL}pages/start-hosting/`;
 
 // // Replacing `img urls`
 homeHtml.querySelector('#cus-img-1').src = customer1ImgUrl;
