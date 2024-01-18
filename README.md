@@ -114,7 +114,6 @@ Which will the `%` (percentage) value calculated with ref. to? The answer depend
 
 [Screen Resolution Stats Worldwide - Statcounter GlobalStats](https://gs.statcounter.com/screen-resolution-stats#monthly-201801-202401-bar)
 
-<div id="all-resolution-ww-monthly-201801-202401" width="600" height="400" style="width:600px; height: 400px;"></div><!-- You may change the values of width and height above to resize the chart --><p>Source: <a href="https://gs.statcounter.com/screen-resolution-stats#monthly-201801-202401-bar">StatCounter Global Stats - Screen Resolution Market Share</a></p><script type="text/javascript" src="https://www.statcounter.com/js/fusioncharts.js"></script><script type="text/javascript" src="https://gs.statcounter.com/chart.php?all-resolution-ww-monthly-201801-202401&chartWidth=600"></script>
 
 ### About Viewport Meta-tag
 
