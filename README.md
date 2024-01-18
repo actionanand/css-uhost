@@ -106,6 +106,20 @@ Which will the `%` (percentage) value calculated with ref. to? The answer depend
 
 ## Responsive Website
 
+![image](https://github.com/actionanand/css-uhost/assets/46064269/ed1e61bd-ad57-445d-b9e6-9211b5148994)
+
+![image](https://github.com/actionanand/css-uhost/assets/46064269/6b9f5373-d29a-40a0-977d-05a5058227a7)
+
+![image](https://github.com/actionanand/css-uhost/assets/46064269/2b9ebf94-0aba-420f-af92-65d10f5d4582)
+
+[Screen Resolution Stats Worldwide - Statcounter GlobalStats](https://gs.statcounter.com/screen-resolution-stats#monthly-201801-202401-bar)
+
+### About Viewport Meta-tag
+
+* Should be added to your HTML files to adjust the viewport to device size
+* Converts **hardware pixels** into **software pixels** and therefore takes into account the actual device width
+
+
 ## Resources for Vite
 
 1. [Vite in a simple html+js use case](https://dev.to/marcinwosinek/vite-in-a-simple-html-js-usecase-35k2)
