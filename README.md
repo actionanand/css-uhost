@@ -16,6 +16,7 @@ http://127.0.0.1:5173/
 4. [Background and Image](#background-and-image)
 5. [Sizes & Units](#sizes--units)
 6. [Responsive Website](#responsive-website)
+7. [Styling Form](#styling-form)
 
 
 ****
