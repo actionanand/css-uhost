@@ -13,7 +13,7 @@ import htmlStrHome from './start-hosting.html?raw';
 const BASE_URL = import.meta.env.BASE_URL;
 
 const navHtml = convertStringToHTML(htmlStrNav);
-// const homeHtml = convertStringToHTML(htmlStrHome);
+const homeHtml = convertStringToHTML(htmlStrHome);
 
 const brandHtml = navHtml.querySelector('.main-header__brand');
 brandHtml.href = BASE_URL;
@@ -25,6 +25,8 @@ navHtml.querySelector('#host-link').href = `${BASE_URL}pages/start-hosting/`;
 navHtml.querySelector('#pkg-link-mobile').href = `${BASE_URL}pages/packages/`;
 navHtml.querySelector('#cus-link-mobile').href = `${BASE_URL}pages/customers/`;
 navHtml.querySelector('#host-link-mobile').href = `${BASE_URL}pages/start-hosting/`;
+
+homeHtml.querySelector('.signup-form').action = `${BASE_URL}pages/start-hosting/`;
 
 
 
@@ -40,7 +42,7 @@ brandHtml.appendChild(imgHtml);
 
 // ~ inserting modified `html` snip into placeholder
 document.querySelector('#nav').innerHTML = navHtml.innerHTML;
-document.querySelector('#app').innerHTML = htmlStrHome;
+document.querySelector('#app').innerHTML = homeHtml.innerHTML;
 
 document.querySelector('#footer').innerHTML = htmlStrFooter;
 
