@@ -123,6 +123,11 @@ Which will the `%` (percentage) value calculated with ref. to? The answer depend
 2. [Responsive Meta Tag - CSS Tricks](https://css-tricks.com/snippets/html/responsive-meta-tag/)
 3. [A Beginner’s Guide to Viewport Meta Tags - Semrush](https://www.semrush.com/blog/viewport-meta-tag/)
 
+## Styling Form
+
+![image](https://github.com/actionanand/css-uhost/assets/46064269/bb83ab5d-2ce2-47e1-ba1d-d6bd01583519)
+
+
 ## Resources for Vite
 
 1. [Vite in a simple html+js use case](https://dev.to/marcinwosinek/vite-in-a-simple-html-js-usecase-35k2)
