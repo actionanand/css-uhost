@@ -127,6 +127,8 @@ Which will the `%` (percentage) value calculated with ref. to? The answer depend
 
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/bb83ab5d-2ce2-47e1-ba1d-d6bd01583519)
 
+* [CSS `-webkit-appearance` - Quackit](https://www.quackit.com/css/properties/webkit/css_-webkit-appearance.cfm)
+* [CSS appearance - mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/appearance)
 
 ## Resources for Vite
 
