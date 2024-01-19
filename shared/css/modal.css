@@ -3,8 +3,8 @@
   display: none;
   z-index: 200;
   top: 20%;
-  left: 30%;
-  width: 40%;
+  left: 10%;
+  width: 80%;
   background: white;
   padding: 1rem;
   border: 1px solid #ccc;
@@ -49,4 +49,11 @@
 
 .open {
   display: block;
+}
+
+@media (min-width: 35rem) {
+  .modal {
+    left: 30%;
+    width: 40%;
+  }
 }

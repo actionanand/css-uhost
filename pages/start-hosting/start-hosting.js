@@ -27,6 +27,8 @@ navHtml.querySelector('#cus-link-mobile').href = `${BASE_URL}pages/customers/`;
 navHtml.querySelector('#host-link-mobile').href = `${BASE_URL}pages/start-hosting/`;
 
 homeHtml.querySelector('.signup-form').action = `${BASE_URL}pages/start-hosting/`;
+homeHtml.querySelector('#agree-terms-url').href = `${BASE_URL}pages/start-hosting/`;
+homeHtml.querySelector('.user-info-link').href = BASE_URL;
 
 
 
@@ -61,3 +63,44 @@ backdrop.addEventListener('click', () => {
   mobileNav.classList.remove('open');
   backdrop.classList.remove('open');
 });
+
+// & Form validation and user page
+const signUpForm = document.querySelector('.signup-form');
+const checkBox = document.querySelector('#agree-terms');
+const signUpBtn = document.querySelector('#signup-btn');
+const signUpPage = document.querySelector('.signup-page');
+const userWlc = document.querySelector('.user-welcome');
+const user = document.querySelector('.user-name');
+
+const onEnableDisableBtn = () => {
+  if (signUpForm.checkValidity()) {
+    signUpBtn.disabled = false;
+  } else {
+    signUpBtn.disabled = true;
+  }
+}
+
+const onFormSubmit = (event) => {
+  event.preventDefault();
+  const data = new FormData(event.target);
+  const dataObject = Object.fromEntries(data.entries());
+  console.log('Form data as Object : ', dataObject);
+
+  console.groupCollapsed('Each entries of form')
+  data.forEach((value, key) => {
+		console.log(`${key}: ${value}`);
+	});
+  console.groupEnd()
+
+  let name = `Dear ${data.get('title')} ${data.get('first-name')},`;
+  user.innerHTML = name;
+
+  signUpPage.classList.add('hide-ui');
+  userWlc.classList.remove('hide-ui');
+}
+
+checkBox.addEventListener('click', onEnableDisableBtn);
+
+signUpForm.addEventListener('keyup', onEnableDisableBtn);
+
+signUpForm.addEventListener('submit', onFormSubmit);

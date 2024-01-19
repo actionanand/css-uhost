@@ -82,9 +82,49 @@ button[disabled]:hover {
   color: #a1a1a1;
 }
 
+.hide-ui {
+  display: none;
+}
+
+.user-wrap {
+  padding: .8rem;
+  background-image: linear-gradient(#d5ffdc, transparent);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  width: 90%;
+  margin: auto;
+}
+
+.user-name {
+  font-family: inherit;
+  font-size: 1.8rem;
+  color: #ff5454;
+}
+
+.user-info-msg {
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.user-info-link {
+  font-family: inherit;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #0e4f1f;
+  font-weight: bold;
+}
+
+.user-info-link:hover {
+  color: #ff5454;
+}
+
 @media (min-width: 40rem) {
   .signup-form {
     margin: auto;
     width: 25rem;
+  }
+
+  .user-wrap {
+    width: 65%;
+    max-width: 37rem;
   }
 }

@@ -2,23 +2,33 @@
   <h1 class="signup-title">Awesome! Let's dive right in!</h1>
   <form action="index.html" class="signup-form">
     <label for="title">Title</label>
-    <select id="title">
-      <option value="mr">Mr.</option>
-      <option value="mis">Mis.</option>
-      <option value="mrs">Mrs.</option>
+    <select id="title" name="title">
+      <option value="Mr.">Mr.</option>
+      <option value="Miss.">Miss.</option>
+      <option value="Mrs.">Mrs.</option>
     </select>
     <label for="first-name">First name</label>
-    <input type="text" id="first-name">
+    <input type="text" id="first-name" name="first-name" required>
     <label for="last-name">Last name</label>
-    <input type="text" id="last-name">
+    <input type="text" id="last-name" name="last-name">
     <label for="email">E-Mail</label>
-    <input type="email" id="email" placeholder="Your e-mail">
+    <input type="email" id="email" placeholder="Your e-mail" required name="email">
     <label for="password">Password</label>
-    <input type="password" id="password" required minlength="5" placeholder="Password with min. 5 letters">
-    <input type="checkbox" id="agree-terms" required>
+    <input type="password" id="password" required minlength="5" placeholder="Password with min. 5 letters" 
+      name="password">
+    <input type="checkbox" id="agree-terms" required name="checkbox">
     <label for="agree-terms">Agree to
-      <a href="#">Terms &amp; Conditions</a>
+      <a href="#" id="agree-terms-url">Terms &amp; Conditions</a>
     </label>
-    <button type="submit" class="button" disabled>Sign Up</button>
+    <button type="submit" class="button" id="signup-btn" disabled>Sign Up</button>
   </form>
+</main>
+<main class="user-welcome hide-ui">
+  <div class="user-wrap">
+    <h1 class="user-name">Hello</h1>
+    <div class="user-info">
+      <span class="user-info-msg"> Your account has been created successfully! Please visit </span>
+      <a class="user-info-link" href="/home"> Uhost</a>
+    </div>
+  </div>
 </main>
