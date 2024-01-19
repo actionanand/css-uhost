@@ -4,20 +4,21 @@
     <label for="title">Title</label>
     <select id="title">
       <option value="mr">Mr.</option>
-      <option value="ms">Ms.</option>
+      <option value="mis">Mis.</option>
+      <option value="mrs">Mrs.</option>
     </select>
     <label for="first-name">First name</label>
     <input type="text" id="first-name">
     <label for="last-name">Last name</label>
     <input type="text" id="last-name">
     <label for="email">E-Mail</label>
-    <input type="email" id="email">
+    <input type="email" id="email" placeholder="Your e-mail">
     <label for="password">Password</label>
-    <input type="password" id="password">
-    <input type="checkbox" id="agree-terms">
+    <input type="password" id="password" required minlength="5" placeholder="Password with min. 5 letters">
+    <input type="checkbox" id="agree-terms" required>
     <label for="agree-terms">Agree to
       <a href="#">Terms &amp; Conditions</a>
     </label>
-    <button type="submit" class="button">Sign Up</button>
+    <button type="submit" class="button" disabled>Sign Up</button>
   </form>
 </main>
