@@ -17,6 +17,7 @@ http://127.0.0.1:5173/
 5. [Sizes & Units](#sizes--units)
 6. [Responsive Website](#responsive-website)
 7. [Styling Form](#styling-form)
+8. [Custom Font](#custom-font)
 
 
 ****
@@ -132,6 +133,12 @@ Which will the `%` (percentage) value calculated with ref. to? The answer depend
 * [CSS appearance - mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/appearance)
 * [Styling web forms - mdn](https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms)
 * [How do I style a <select> dropdown with only CSS? - StackOverflow](https://stackoverflow.com/questions/1895476/how-do-i-style-a-select-dropdown-with-only-css)
+
+## Custom Font
+
+* [How To Load and Use Custom Fonts with CSS](https://www.digitalocean.com/community/tutorials/how-to-load-and-use-custom-fonts-with-css)
+* [font-family - mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
+
 
 ## Resources for Vite
 

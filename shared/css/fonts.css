@@ -1,0 +1,45 @@
+/* 
+  * downloaded from: https://www.cufonfonts.com/font/belta-bold 
+  Also refer: https://www.cufonfonts.com/font/cold-snowflake 
+*/
+
+/* 
+  ~ font-weight: normal; -> font-weight: 400;
+  thin -> 100;
+  ExtraLight -> 200;
+  Light -> 300;
+  Medium -> 500;
+  SemiBold -> 600;
+  Bold -> 700;
+  ExtraBold -> 800;
+  Black/Heavy -> 900; 
+*/
+
+/* 
+  src: url('fonts/fira/eot/FiraSans-Bold.eot') format('embedded-opentype'),
+      url('fonts/fira/woff2/FiraSans-Bold.woff2') format('woff2'),
+      url('fonts/fira/woff/FiraSans-Bold.woff') format('woff'); 
+*/
+
+@font-face {
+  font-family: 'Belta bold';
+  src: url('../fonts/belta-bold-cufonfonts/belta-regular.ttf');
+  src: url('../fonts/belta-bold-cufonfonts/belta-regular.ttf') format('truetype'),
+       url('../fonts/belta-bold-cufonfonts/belta-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Belta bold';
+  src: url('../fonts/belta-bold-cufonfonts/belta-light.ttf');
+  font-weight: 300;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Belta bold';
+  src: url('../fonts/belta-bold-cufonfonts/belta-bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
