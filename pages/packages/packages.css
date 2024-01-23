@@ -54,10 +54,6 @@ main {
   font-size: 1.2rem;
   color: #0e4f1f;
   background: white;
-  /* 
-    font: italic small-caps 400 1.2rem 'Montserrat', sans-serif;
-    font: font-style font-variant font-weight font-size font-family; 
-  */
 }
 
 .clearfix {
