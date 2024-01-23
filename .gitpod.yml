@@ -8,7 +8,7 @@ tasks:
   - name: Setup vite vanilla js with node ^20
     before: nvm install v20.10.0
     init: yarn install && yarn run build
-    command: yarn run start
+    command: yarn run dev
 vscode:
   extensions:
     - dbaeumer.vscode-eslint

@@ -19,6 +19,7 @@
   src: url('fonts/fira/eot/FiraSans-Bold.eot') format('embedded-opentype'),
       url('fonts/fira/woff2/FiraSans-Bold.woff2') format('woff2'),
       url('fonts/fira/woff/FiraSans-Bold.woff') format('woff'); 
+  * woff -> WOFF - Web Open Font Format. It's Compressed TrueType/OpenType font
 */
 
 @font-face {
