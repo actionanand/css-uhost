@@ -139,6 +139,19 @@ Which will the `%` (percentage) value calculated with ref. to? The answer depend
 * [How To Load and Use Custom Fonts with CSS](https://www.digitalocean.com/community/tutorials/how-to-load-and-use-custom-fonts-with-css)
 * [font-family - mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
 
+### Font short-hand
+
+```css
+    font: italic small-caps 400 1.2rem 'Montserrat', sans-serif;
+```
+the order will be as below:
+
+```css
+font: font-style font-variant font-weight font-size font-family; 
+```
+
+* `font-size` and `font-family` should be there in the short-hand
+
 
 ## Resources for Vite
 

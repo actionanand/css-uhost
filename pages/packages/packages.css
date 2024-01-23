@@ -54,6 +54,10 @@ main {
   font-size: 1.2rem;
   color: #0e4f1f;
   background: white;
+  /* 
+    font: italic small-caps 400 1.2rem 'Montserrat', sans-serif;
+    font: font-style font-variant font-weight font-size font-family; 
+  */
 }
 
 .clearfix {
@@ -79,6 +83,10 @@ main {
 
 #premium {
   background: rgba(14, 79, 31, 0.95);
+}
+
+.package__title {
+  text-shadow: 2px 2px 5px gray;
 }
 
 #premium .package__title {
