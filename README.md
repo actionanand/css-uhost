@@ -132,7 +132,7 @@ Which will the `%` (percentage) value calculated with ref. to? The answer depend
 * [CSS `-webkit-appearance` - Quackit](https://www.quackit.com/css/properties/webkit/css_-webkit-appearance.cfm)
 * [CSS appearance - mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/appearance)
 * [Styling web forms - mdn](https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms)
-* [How do I style a <select> dropdown with only CSS? - StackOverflow](https://stackoverflow.com/questions/1895476/how-do-i-style-a-select-dropdown-with-only-css)
+* [How do I style a `select dropdown` with only CSS? - StackOverflow](https://stackoverflow.com/questions/1895476/how-do-i-style-a-select-dropdown-with-only-css)
 
 ## Custom Font
 
