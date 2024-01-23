@@ -142,12 +142,12 @@ Which will the `%` (percentage) value calculated with ref. to? The answer depend
 ### Font short-hand
 
 ```css
-    font: italic small-caps 400 1.2rem 'Montserrat', sans-serif;
+    font: italic small-caps 400 1.2rem/2 'Montserrat', sans-serif;
 ```
 the order will be as below:
 
 ```css
-font: font-style font-variant font-weight font-size font-family; 
+font: font-style font-variant font-weight font-size/line-height font-family; 
 ```
 
 * `font-size` and `font-family` should be there in the short-hand
