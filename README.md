@@ -166,6 +166,13 @@ font: font-style font-variant font-weight font-size/line-height font-family;
 | **optional** | extremely short     | none                | Minimize the risk of layout shift & invisible texts(even better than `fallback`, as no swap period) |
 | **auto**     | based on user agent | based on user agent | based on user agent                                                                                 |
 
+
+1. [Controlling Font Performance with font-display](https://developer.chrome.com/blog/font-display)
+2. [Font loading strategies: FOIT and FOUT](https://dev.to/ibn_abubakre/font-loading-strategies-foit-and-fout-393b)
+       - **FOIT** - Flash Of Invisible Text
+       - **FOUT** - Flash Of Unstyled Text
+3. [Optimize web fonts loading - YouTube](https://www.youtube.com/watch?v=wnpMeYARV4g)
+
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/74c29804-e812-47ac-b5c8-17450bc1ca9a)
 
 ## Resources for Vite
