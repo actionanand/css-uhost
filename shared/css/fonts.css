@@ -29,13 +29,15 @@
        url('../fonts/belta-bold-cufonfonts/belta-regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Belta bold';
   src: url('../fonts/belta-bold-cufonfonts/belta-light.ttf');
   font-weight: 300;
-  font-style: normal
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -43,4 +45,5 @@
   src: url('../fonts/belta-bold-cufonfonts/belta-bold.ttf');
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
