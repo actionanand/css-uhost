@@ -156,6 +156,9 @@ font: font-style font-variant font-weight font-size/line-height font-family;
 
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/3a056466-7b0e-4b84-8e46-db0ef211f587)
 
+![image](https://github.com/actionanand/css-uhost/assets/46064269/6803a4ef-74cc-4686-bf84-75e935522d9f)
+
+![image](https://github.com/actionanand/css-uhost/assets/46064269/74c29804-e812-47ac-b5c8-17450bc1ca9a)
 
 ## Resources for Vite
 
