@@ -154,6 +154,8 @@ font: font-style font-variant font-weight font-size/line-height font-family;
 
 * `font-size` and `font-family` should be there in the short-hand
 
+![image](https://github.com/actionanand/css-uhost/assets/46064269/3a056466-7b0e-4b84-8e46-db0ef211f587)
+
 
 ## Resources for Vite
 
