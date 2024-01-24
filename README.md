@@ -158,6 +158,14 @@ font: font-style font-variant font-weight font-size/line-height font-family;
 
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/6803a4ef-74cc-4686-bf84-75e935522d9f)
 
+|              | **Block Period**    | **Swap Period**     | **Outcome**                                                                                         |
+|--------------|---------------------|---------------------|-----------------------------------------------------------------------------------------------------|
+| **block**    | short               | infinite            | FOIT, Layout shifts                                                                                 |
+| **swap**     | none                | infinite            | FOUT, Layout shifts                                                                                 |
+| **fallback** | extremely short     | short               | Minimize the risk of layout shift & invisible texts                                                 |
+| **optional** | extremely short     | none                | Minimize the risk of layout shift & invisible texts(even better than `fallback`, as no swap period) |
+| **auto**     | based on user agent | based on user agent | based on user agent                                                                                 |
+
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/74c29804-e812-47ac-b5c8-17450bc1ca9a)
 
 ## Resources for Vite
