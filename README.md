@@ -138,6 +138,8 @@ Which will the `%` (percentage) value calculated with ref. to? The answer depend
 
 * [How To Load and Use Custom Fonts with CSS](https://www.digitalocean.com/community/tutorials/how-to-load-and-use-custom-fonts-with-css)
 * [font-family - mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
+* [Web safe fonts](https://www.cssfontstack.com/)
+* [The `line-height` property - mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height)
 
 ### Font short-hand
 
