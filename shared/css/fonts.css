@@ -16,17 +16,17 @@
 */
 
 /* 
-  src: url('fonts/fira/eot/FiraSans-Bold.eot') format('embedded-opentype'),
-      url('fonts/fira/woff2/FiraSans-Bold.woff2') format('woff2'),
-      url('fonts/fira/woff/FiraSans-Bold.woff') format('woff'); 
   * woff -> WOFF - Web Open Font Format. It's Compressed TrueType/OpenType font
 */
 
 @font-face {
   font-family: 'Belta bold';
   src: url('../fonts/belta-bold-cufonfonts/belta-regular.ttf');
-  src: url('../fonts/belta-bold-cufonfonts/belta-regular.ttf') format('truetype'),
-       url('../fonts/belta-bold-cufonfonts/belta-regular.otf') format('opentype');
+  src: url('../fonts/belta-bold-cufonfonts/belta-regular.woff2') format('woff2'),
+       url('../fonts/belta-bold-cufonfonts/belta-regular.woff') format('woff'),
+       url('../fonts/belta-bold-cufonfonts/belta-regular.otf') format('opentype'),
+       url('../fonts/belta-bold-cufonfonts/belta-regular.ttf') format('truetype'),
+       url('../fonts/belta-bold-cufonfonts/belta-regular.eot') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
