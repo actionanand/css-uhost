@@ -213,7 +213,6 @@ font: font-style font-variant font-weight font-size/line-height font-family;
     align-items: stretch;
     justify-content: flex-start;
     align-content: normal;
-    height: 900px;
     /* short-hand for flex */
     /* 
       flex-flow: flex-direction flex-wrap;
@@ -221,6 +220,10 @@ font: font-style font-variant font-weight font-size/line-height font-family;
     flex-flow: row nowrap;
   }
 ```
+
+![image](https://github.com/actionanand/css-uhost/assets/46064269/537ba735-7595-4a4a-a807-c35f99cb26fa)
+
+![image](https://github.com/actionanand/css-uhost/assets/46064269/9d87bd97-0daa-4843-b14a-0e6c9c37cee7)
 
 [🔼Back to the top](#contents)
 
