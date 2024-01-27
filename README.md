@@ -220,6 +220,7 @@ font: font-style font-variant font-weight font-size/line-height font-family;
     flex-flow: row nowrap;
   }
 ```
+* `flex-basis` is based on the **main axis**. If `flex-direction: row;`, `flex-basis` will be replace the **width** of the element (X - axis). If `flex-direction: column;`, `flex-basis` will be replace the **height** of the element (Y - axis).
 
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/537ba735-7595-4a4a-a807-c35f99cb26fa)
 
