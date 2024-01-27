@@ -205,6 +205,22 @@ font: font-style font-variant font-weight font-size/line-height font-family;
 
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/94fcbbda-ffff-48ec-a6d5-4d98a0d0cbc8)
 
+```css
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: flex-start;
+    align-content: normal;
+    height: 900px;
+    /* short-hand for flex */
+    /* 
+      flex-flow: flex-direction flex-wrap;
+    */
+    flex-flow: row nowrap;
+  }
+```
 
 [🔼Back to the top](#contents)
 
