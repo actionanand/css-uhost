@@ -3,6 +3,8 @@ This project focus on css.
 
 Dev server: Point your browser at the below address!
 
+[🔽To the main content](#contents)
+
 ```
 http://127.0.0.1:5173/
 ```
@@ -18,7 +20,8 @@ http://127.0.0.1:5173/
 6. [Responsive Website](#responsive-website)
 7. [Styling Form](#styling-form)
 8. [Custom Font](#custom-font)
-
+9. [Flex Box](#flex-box)
+10. [Other Resources](#resources-for-vite)
 
 ****
 
@@ -30,6 +33,8 @@ http://127.0.0.1:5173/
 
 * The universal selector * has no specificity value (0, 0, 0, 0);
 
+[🔼Back to the top](#contents)
+
 ## Combinators
 
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/25296f30-4951-46d0-b204-9baa60b3d8f7)
@@ -37,6 +42,8 @@ http://127.0.0.1:5173/
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/9e601b59-31d8-44b2-81f4-1b3d94a68028)
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/212dd5c7-c72a-4a91-858a-8a89a2c77f6f)
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/482409d1-2f9e-4613-ad48-dbb5553036dc)
+
+[🔼Back to the top](#contents)
 
 ## Box Model & Positioning elements and deep dive inside css
 
@@ -79,6 +86,8 @@ http://127.0.0.1:5173/
 1. [Working With CSS Float And Clear Properties](https://blog.openreplay.com/working-with-css-float-and-clear-properties/)
 2. [More on float - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/float)
 
+[🔼Back to the top](#contents)
+
 ## Background and Image
 
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/c4c28015-896a-46b6-9545-c839b171c8d4)
@@ -89,6 +98,8 @@ http://127.0.0.1:5173/
 4. [Styling SVG - mdn](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_and_CSS)
 
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/469d2ad5-6a72-482e-8427-9c28374aaeb9)
+
+[🔼Back to the top](#contents)
 
 ## Sizes & Units
 
@@ -105,6 +116,8 @@ Which will the `%` (percentage) value calculated with ref. to? The answer depend
 * Can be the closest ancestor or the viewport
 
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/450f79fb-e906-46fd-b9bb-f796ba2e1f7a)
+
+[🔼Back to the top](#contents)
 
 ## Responsive Website
 
@@ -125,6 +138,8 @@ Which will the `%` (percentage) value calculated with ref. to? The answer depend
 2. [Responsive Meta Tag - CSS Tricks](https://css-tricks.com/snippets/html/responsive-meta-tag/)
 3. [A Beginner’s Guide to Viewport Meta Tags - Semrush](https://www.semrush.com/blog/viewport-meta-tag/)
 
+[🔼Back to the top](#contents)
+
 ## Styling Form
 
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/bb83ab5d-2ce2-47e1-ba1d-d6bd01583519)
@@ -133,6 +148,8 @@ Which will the `%` (percentage) value calculated with ref. to? The answer depend
 * [CSS appearance - mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/appearance)
 * [Styling web forms - mdn](https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms)
 * [How do I style a `select dropdown` with only CSS? - StackOverflow](https://stackoverflow.com/questions/1895476/how-do-i-style-a-select-dropdown-with-only-css)
+
+[🔼Back to the top](#contents)
 
 ## Custom Font
 
@@ -175,10 +192,14 @@ font: font-style font-variant font-weight font-size/line-height font-family;
 
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/74c29804-e812-47ac-b5c8-17450bc1ca9a)
 
+[🔼Back to the top](#contents)
+
 ## Flex Box
 
 * Adding the `z-index`  to an element only has an effect, if the `position`  property with a value different from `static`  was applied to this element.
 * One exception from this behaviour is **flexbox**. Applying the `z-index`  to `flex-items` (so the elements inside of the flex-container) will change the order of these items even if no position  property was applied.
+
+[🔼Back to the top](#contents)
 
 ## Resources for Vite
 
@@ -187,3 +208,5 @@ font: font-style font-variant font-weight font-size/line-height font-family;
 3. [Shared Options - Vite official](https://vitejs.dev/config/shared-options)
 4. [How to Convert a String to HTML using JavaScript](https://sabe.io/blog/javascript-convert-string-to-html)
 5. [Append element as sibling after element? - Stackoverflow](https://stackoverflow.com/questions/21422337/append-element-as-sibling-after-element)
+
+[🔼Back to the top](#contents)
