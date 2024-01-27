@@ -175,6 +175,11 @@ font: font-style font-variant font-weight font-size/line-height font-family;
 
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/74c29804-e812-47ac-b5c8-17450bc1ca9a)
 
+## Flex Box
+
+* Adding the `z-index`  to an element only has an effect, if the `position`  property with a value different from `static`  was applied to this element.
+* One exception from this behaviour is **flexbox**. Applying the `z-index`  to `flex-items` (so the elements inside of the flex-container) will change the order of these items even if no position  property was applied.
+
 ## Resources for Vite
 
 1. [Vite in a simple html+js use case](https://dev.to/marcinwosinek/vite-in-a-simple-html-js-usecase-35k2)
