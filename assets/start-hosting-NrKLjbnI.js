@@ -1,4 +1,4 @@
-import{c,b as f,h as y,a as S}from"./footer-93Z1SVI5.js";const q=`<main class="signup-page">
+import{c,b as f,h as y,a as S}from"./footer-59LMSqFD.js";const q=`<main class="signup-page">
   <h1 class="signup-title">Awesome! Let's dive right in!</h1>
   <form action="index.html" class="signup-form">
     <label for="title">Title</label>
@@ -16,10 +16,12 @@ import{c,b as f,h as y,a as S}from"./footer-93Z1SVI5.js";const q=`<main class="s
     <label for="password">Password</label>
     <input type="password" id="password" required minlength="5" placeholder="Password with min. 5 letters" 
       name="password">
-    <input type="checkbox" id="agree-terms" required name="checkbox">
-    <label for="agree-terms">Agree to
-      <a href="#" id="agree-terms-url">Terms &amp; Conditions</a>
-    </label>
+    <div class="signup-form__checkbox">
+      <input type="checkbox" id="agree-terms" required name="checkbox">
+      <label for="agree-terms">Agree to
+        <a href="#" id="agree-terms-url">Terms &amp; Conditions</a>
+      </label>
+    </div>
     <button type="submit" class="button" id="signup-btn" disabled>Sign Up</button>
   </form>
 </main>
