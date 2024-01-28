@@ -21,7 +21,8 @@ http://127.0.0.1:5173/
 7. [Styling Form](#styling-form)
 8. [Custom Font](#custom-font)
 9. [Flex Box](#flex-box)
-10. [Other Resources](#resources-for-vite)
+10. [CSS Grid](#css-grid)
+11. [Other Resources](#resources-for-vite)
 
 ****
 
@@ -225,6 +226,10 @@ font: font-style font-variant font-weight font-size/line-height font-family;
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/537ba735-7595-4a4a-a807-c35f99cb26fa)
 
 ![image](https://github.com/actionanand/css-uhost/assets/46064269/9d87bd97-0daa-4843-b14a-0e6c9c37cee7)
+
+[🔼Back to the top](#contents)
+
+## CSS Grid
 
 [🔼Back to the top](#contents)
 
