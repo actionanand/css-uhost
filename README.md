@@ -231,6 +231,9 @@ font: font-style font-variant font-weight font-size/line-height font-family;
 
 ## CSS Grid
 
+![image](https://github.com/actionanand/css-uhost/assets/46064269/1b4eff98-edcb-4379-8865-56261417efc9)
+
+
 [🔼Back to the top](#contents)
 
 ## Resources for Vite
