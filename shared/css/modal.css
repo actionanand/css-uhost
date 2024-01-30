@@ -1,6 +1,5 @@
 .modal {
   position: fixed;
-  display: none;
   z-index: 200;
   top: 20%;
   left: 10%;
@@ -9,6 +8,15 @@
   padding: 1rem;
   border: 1px solid #ccc;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  /* 
+    display: none; 
+  */
+  /* animation css - `ease-in` -> starts slower & ends faster; `ease-out` -> reverse of the prior*/
+  opacity: 0;
+  transform: translateY(-3rem);
+  transition: opacity 200ms ease-out, transform .5s cubic-bezier(0.87, 0, 0.13, 1);
+  /* 3rd value `1s` is the delay -> transition: WHAT DURATION DELAY TIMING-FUNCTION; */
+  /* transition: opacity 200ms ease-out 1s, transform .5s ease-out 1s; */
 }
 
 .modal__title {
@@ -47,9 +55,6 @@
   border-color: #ff5454;
 }
 
-.open {
-  display: block;
-}
 
 @media (min-width: 35rem) {
   .modal {

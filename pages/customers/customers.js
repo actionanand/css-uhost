@@ -53,6 +53,7 @@ document.querySelector('#footer').innerHTML = htmlStrFooter;
 const toggleBtn = document.querySelector('.toggle-button');
 const mobileNav = document.querySelector('.mobile-nav');
 const backdrop = document.querySelector('.backdrop');
+const ctaBtn = document.querySelector('.main-nav__item--cta');
 
 // & triggering mobile nav
 toggleBtn.addEventListener('click', () => {
@@ -63,4 +64,17 @@ toggleBtn.addEventListener('click', () => {
 backdrop.addEventListener('click', () => {
   mobileNav.classList.remove('open');
   backdrop.classList.remove('open');
+});
+
+// js animation
+ctaBtn.addEventListener('animationstart', (event) => {
+  console.log('Animation started : ', event);
+});
+
+ctaBtn.addEventListener('animationend', (event) => {
+  console.log('Animation ended : ', event);
+});
+
+ctaBtn.addEventListener('animationiteration', (event) => {
+  console.log('Animation iteration : ', event);
 });

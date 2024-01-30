@@ -34,8 +34,8 @@ main {
 }
 
 .backdrop {
-  position: fixed;
   display: none;
+  position: fixed;
   z-index: 100;
   width: 100vw;
   height: 100vh;
@@ -138,6 +138,11 @@ height: 100%;
   border-radius: 8px;
 }
 
+.main-nav__item--cta {
+  animation: wiggle 400ms 3s 8;
+  /* animation-play-state: running; */
+}
+
 .main-nav__item--cta a:hover,
 .main-nav__item--cta a:active,
 .mobile-nav__item--cta a:hover,
@@ -148,7 +153,6 @@ height: 100%;
 }
 
 .mobile-nav {
-  display: none;
   position: fixed;
   z-index: 101;
   top: 0;
@@ -156,6 +160,10 @@ height: 100%;
   background: white;
   width: 80%;
   height: 100vh;
+  /* display: none; */
+  /* Animation */
+  transform: translateX(-100%);
+  transition: transform 300ms ease-out;
 }
 
 .mobile-nav__items {
@@ -232,7 +240,10 @@ height: 100%;
 }
 
 .open {
-  display: block;
+  /* animation */
+  display: block; 
+  opacity: 1;
+  transform: translateY(0);
 }
 
 @media (min-width: 40rem) {
@@ -258,5 +269,17 @@ height: 100%;
   .main-footer__link {
     /* display: inline-block; */
     margin: 0 1rem;
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotateZ(0);
+  }
+  50% {
+    transform: rotateZ(-10deg); 
+  }
+  100% {
+    transform: rotateZ(10deg);
   }
 }
