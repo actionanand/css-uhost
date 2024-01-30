@@ -55,6 +55,11 @@
   border-color: #ff5454;
 }
 
+.open {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 @media (min-width: 35rem) {
   .modal {
