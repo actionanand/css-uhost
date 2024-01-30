@@ -1,4 +1,4 @@
-import{c,b as f,h as y,a as S}from"./footer-59LMSqFD.js";const q=`<main class="signup-page">
+import{c,b as f,h as y,a as S}from"./footer-zZd0UaAG.js";const q=`<main class="signup-page">
   <h1 class="signup-title">Awesome! Let's dive right in!</h1>
   <form action="index.html" class="signup-form">
     <label for="title">Title</label>
