@@ -1,4 +1,4 @@
-import{c as r,b as m,h as d,a as u}from"./footer-zZd0UaAG.js";const g="/css-uhost/assets/customer-1-3MXojdIc.jpg",h="/css-uhost/assets/customer-2-YE0NSnXn.jpg",p=`<main>
+import{c as r,b as m,h as d,a as u}from"./footer-C3R9Uw3c.js";const g="/css-uhost/assets/customer-1-3MXojdIc.jpg",h="/css-uhost/assets/customer-2-YE0NSnXn.jpg",p=`<main>
   <div>
     <div class="testimonial" id="customer-1">
         <div class="testimonial__image-container">
