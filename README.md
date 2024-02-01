@@ -321,6 +321,7 @@ The above line Can be translated to: "Play the **wiggle keyframe** set (animatio
 * [BEM in detail](https://getbem.com/introduction/)
 * [An introduction to Bootstrap 4 - Academind](https://academind.com/tutorials/bootstrap-4-tutorial)
 * [CSS Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
+* [Auto prefixer - online](https://autoprefixer.github.io/)
 
 [🔼Back to the top](#contents)
 
