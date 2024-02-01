@@ -161,7 +161,7 @@ height: 100%;
 .main-nav__item--cta a:active,
 .mobile-nav__item--cta a:hover,
 .mobile-nav__item--cta a:active {
-  color: var(--high-light-color);;
+  color: var(--high-light-color);
   background: white;
   border: none;
 }
@@ -233,10 +233,10 @@ height: 100%;
 }
 
 .button {
-  background: var(--dark-green);;
+  background: var(--dark-green);
   color: white;
   font: inherit;
-  border: 1.5px solid var(--dark-green);;
+  border: 1.5px solid var(--dark-green);
   padding: .5rem;
   border-radius: 8px;
   font-weight: bold;
@@ -246,7 +246,7 @@ height: 100%;
 .button:hover,
 .button:active {
   background: white;
-  color: var(--dark-green);;
+  color: var(--dark-green);
 }
 
 .button:focus {
