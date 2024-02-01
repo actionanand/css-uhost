@@ -23,7 +23,8 @@ http://127.0.0.1:5173/
 9. [Flex Box](#flex-box)
 10. [CSS Grid](#css-grid)
 11. [Transitions & Animations](#transitions--animations)
-12. [Other Resources](#resources-for-vite)
+12. [Guide on Future proof css code](#guide-on-future-proof-css-code)
+13. [Other Resources](#resources-for-vite)
 
 ****
 
@@ -307,6 +308,19 @@ The above line Can be translated to: "Play the **wiggle keyframe** set (animatio
 
 * [List of "transitionable" Properties](https://www.w3.org/TR/css-transitions-1/#animatable-properties)
 
+
+[🔼Back to the top](#contents)
+
+## Guide on Future proof css code
+
+* [CSS Modules & Working Groups](https://www.w3.org/TR/#tr_Cascading_Style_Sheets__CSS__Working_Group)
+* [CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+* [Vendor Prefix- mdn](https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix)
+* [Which Vendor Prefixes should you use?](https://shouldiprefix.com/)
+* [@supports - mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/%40supports)
+* [BEM in detail](https://getbem.com/introduction/)
+* [An introduction to Bootstrap 4 - Academind](https://academind.com/tutorials/bootstrap-4-tutorial)
+* [CSS Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
 
 [🔼Back to the top](#contents)
 
